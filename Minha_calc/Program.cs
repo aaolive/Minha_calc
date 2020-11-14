@@ -39,22 +39,26 @@ namespace Minha_calc
             }
             */
 
-            int[] numarray = new int[10];
+            /*int[] numarray = new int[10];
             Console.WriteLine(numarray.Length);
             Console.WriteLine(numarray[1]);
-
+            
             string nome = "Anderson de Assis";
             Console.WriteLine(nome.Length);
             int inddoS = nome.LastIndexOf("de");
             nome = nome.Insert(inddoS, "bb");
             Console.WriteLine(nome);
             nome = nome.Replace("Anderson", "Andrea");
-            Console.WriteLine(nome);
+            Console.WriteLine(nome);*/
 
             // exemplo da classe conta
             Conta contaExemplo = new Conta();
-            contaExemplo.ResolverConta();
-            contaExemplo.MostrarAContaResolvidaEmParte();
+            //contaExemplo.ResolverConta();
+            //contaExemplo.MostrarAContaResolvidaEmParte();
+
+            // exemplo de conta com regex
+            contaExemplo.ResolverContaComRegexII();
+
         }
     }
 }

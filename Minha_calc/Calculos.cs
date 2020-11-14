@@ -39,6 +39,7 @@ namespace Minha_calc
             }
             catch(Exception e)
             {
+                Console.WriteLine("Houve um erro: {0}", e);
                 Console.WriteLine("Não é possível dividir por 0.");
             }
             
